@@ -1,21 +1,24 @@
+import PageNav from "./PageNav";
+import styles from "./modules/Product.module.css"
 function Price() {
     return (
-        <div>
-             <div>
+      <main className={styles.product}>
+        <PageNav/>
+        <section>
           <h2>
             Simple pricing.
             <br />
             Just $9/month.
           </h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae vel
-            labore mollitia iusto. Recusandae quos provident, laboriosam fugit
+   Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br/> Vitae vel
+ labore mollitia iusto. Recusandae quos <br/> provident, laboriosam fugit
             voluptatem iste.
           </p>
-        </div>
+        </section>
         <img src="img-2.jpg" alt="overview of a large city with skyscrapers" />
-        </div>
-    )
+      </main>
+    );
 }
 
 export default Price
