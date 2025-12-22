@@ -1,0 +1,160 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Nijar",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-04-03T07:47:59.202Z",
+      "notes": "",
+      "position": {
+        "lat": "36.967508314568164",
+        "lng": "-2.13128394200588"
+      },
+      "id": 98443198
+    },
+    {
+      "id": "eacc",
+      "cityName": "Dadaab",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2025-12-13T13:23:32.473Z",
+      "notes": "",
+      "position": {
+        "lat": "-0.015106201171875002",
+        "lng": "40.00173525818132"
+      }
+    },
+    {
+      "id": "3221",
+      "cityName": "Dadaab",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2025-12-13T13:24:44.566Z",
+      "notes": "",
+      "position": {
+        "lat": "-0.015106201171875002",
+        "lng": "40.00173525818132"
+      }
+    },
+    {
+      "id": "0a7d",
+      "cityName": "Dadaab",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2025-12-13T13:32:41.819Z",
+      "notes": "",
+      "position": {
+        "lat": "-0.015106201171875002",
+        "lng": "40.00173525818132"
+      }
+    },
+    {
+      "id": "fad8",
+      "cityName": "Otlukbeli",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2025-12-13T14:20:12.579Z",
+      "notes": "",
+      "position": {
+        "lat": "39.98785220177161",
+        "lng": "40.01921378679994"
+      }
+    },
+    {
+      "id": "a906",
+      "cityName": "Dadaab",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2025-12-13T14:33:58.623Z",
+      "notes": "",
+      "position": {
+        "lat": "0.03278732299804688",
+        "lng": "40.02118195503576"
+      }
+    },
+    {
+      "id": "6622",
+      "cityName": "Dadaab",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2025-12-13T14:36:41.071Z",
+      "notes": "",
+      "position": {
+        "lat": "-0.03433227539062501",
+        "lng": "39.98491202545967"
+      }
+    },
+    {
+      "id": "a40c",
+      "cityName": "Musabeyli",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2025-12-13T14:44:13.620Z",
+      "notes": "",
+      "position": {
+        "lat": "36.989765167236335",
+        "lng": "36.990907442929604"
+      }
+    },
+    {
+      "id": "d368",
+      "cityName": "Sahinbey",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2025-12-13T14:44:18.708Z",
+      "notes": "",
+      "position": {
+        "lat": "37.025985717773445",
+        "lng": "37.00722627067041"
+      }
+    },
+    {
+      "id": "135c",
+      "cityName": "Suran",
+      "country": "Syrian Arab Republic (the)",
+      "emoji": "🇸🇾",
+      "date": "2025-12-13T14:44:29.860Z",
+      "notes": "",
+      "position": {
+        "lat": "36.59133911132813",
+        "lng": "37.20633971545756"
+      }
+    }
+  ]
+}
