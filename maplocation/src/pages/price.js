@@ -1,5 +1,6 @@
-import PageNav from "./PageNav";
-import styles from "./modules/Product.module.css"
+import PageNav from "../PageNav";
+import styles from "../modules/Product.module.css";
+//import styles from "./modules/Product.module.css"
 function Price() {
     return (
       <main className={styles.product}>
