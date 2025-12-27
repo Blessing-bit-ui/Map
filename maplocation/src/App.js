@@ -8,6 +8,7 @@ import HomePage from "./pages/HomePage";
 import AppNav from "./component/AppNav";
 import PageNotFound from "./PageNotFound";
 import Countries from "./component/Countries";
+import AppLayOut from "./component/AppLayOut";
 import { CityProvider } from "./ContextProvider/CityProvider";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -17,7 +18,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="app" element={<AppNav />}/>
+          <Route path="app" element={<AppLayOut />}/>
           <Route path="app/cities" element={<Cities />} />
           <Route path="app/countries" element={<Countries />} />
           <Route path="product" element={<Product />} />
