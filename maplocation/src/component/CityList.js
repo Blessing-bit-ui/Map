@@ -1,8 +1,13 @@
+ import { Link } from "react-router-dom"
 function CityList({city}) {
+
+    const {cityName, emoji, id, position} =city
     return (
-        <div>
-            {city.cityName}
-        </div>
+        <ul>
+         <Link to={`${cityName}&id=${id}?lat=${position.lat}&lng=${position.lng}`}>
+         {cityName}
+         </Link>   
+        </ul>
     )
 }
 

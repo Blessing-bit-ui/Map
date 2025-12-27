@@ -1,4 +1,5 @@
 import CountryLists from "./CountryList";
+import styles from "../modules/Countries.module.css"
 import { useEffect } from "react";
 import { useCities } from "../ContextProvider/CityProvider";
 
@@ -18,9 +19,9 @@ function Countries() {
   }, []);
 
   return (
-    <ul>
+    <ul className={styles.countryList}>
       {countries.map((country) => (
-       <CountryLists country={country}/>
+        <CountryLists country={country} />
       ))}
     </ul>
   );

@@ -9,6 +9,7 @@ import AppNav from "./component/AppNav";
 import PageNotFound from "./PageNotFound";
 import Countries from "./component/Countries";
 import AppLayOut from "./component/AppLayOut";
+import City from "./component/City";
 import { CityProvider } from "./ContextProvider/CityProvider";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -18,9 +19,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="app" element={<AppLayOut />}/>
-          <Route path="app/cities" element={<Cities />} />
-          <Route path="app/countries" element={<Countries />} />
+          <Route path="app" element={<AppLayOut />}>
+          <Route path="cities/:id" element ={<City/>}/>
+          <Route path="cities" element={<Cities />} />
+          <Route path="countries" element={<Countries />} />
+          </Route>
           <Route path="product" element={<Product />} />
           <Route path="price" element={<Price />} />
           <Route path="login" element={<Login />} />
