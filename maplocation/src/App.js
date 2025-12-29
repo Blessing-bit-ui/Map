@@ -20,10 +20,11 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="app" element={<AppLayOut />}>
-          <Route path="cities/:cityName" element ={<City/>}/>
-          <Route path="cities" element={<Cities />} />
-          <Route path="countries" element={<Countries />} />
+            <Route path="cities" element={<Cities />} />
+            <Route path="countries" element={<Countries />} />
+            <Route path="cities/:id" element={<City />} />
           </Route>
+
           <Route path="product" element={<Product />} />
           <Route path="price" element={<Price />} />
           <Route path="login" element={<Login />} />

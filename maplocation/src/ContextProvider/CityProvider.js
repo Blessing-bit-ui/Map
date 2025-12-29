@@ -5,10 +5,18 @@
 
  function CityProvider({children}) {
 const [cities, setCities] =useState([])
+const [currentCity, setCurrentCity] = useState({})
  async function fetchCities(){
 const res= await fetch (`${Base_Url}/cities`)
 const data = await res.json()
 setCities(data)
+}
+
+
+async function getCity(id){
+    const res = await fetch(`${Base_Url}/cities/${id}`)
+    const data = await res.json()
+    setCurrentCity(data)
 }
     return (
         <div>
@@ -16,6 +24,8 @@ setCities(data)
             cities,
             setCities,
             fetchCities,
+            getCity,
+            currentCity
            }}>
             {children}
             </citiesContext.Provider> 

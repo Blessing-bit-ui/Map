@@ -5,9 +5,7 @@ import { Outlet } from "react-router-dom";
 function AppLayOut() {
     return (
       <div className={styles.app}>       
-
 <SideBar/>
-<Outlet/>
 <Map/>
       </div>
     );
