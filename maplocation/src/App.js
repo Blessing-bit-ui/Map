@@ -10,6 +10,7 @@ import PageNotFound from "./PageNotFound";
 import Countries from "./component/Countries";
 import AppLayOut from "./component/AppLayOut";
 import City from "./component/City";
+import Form from "./component/Form";
 import { CityProvider } from "./ContextProvider/CityProvider";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="cities" element={<Cities />} />
             <Route path="countries" element={<Countries />} />
             <Route path="cities/:id" element={<City />} />
+            <Route path="form" element={<Form />} />
           </Route>
 
           <Route path="product" element={<Product />} />
